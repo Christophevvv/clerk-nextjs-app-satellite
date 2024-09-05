@@ -11,7 +11,7 @@ export default clerkMiddleware(
     isSatellite: true,
     signInUrl: "https://platform.keuringsnetwerk.be/inloggen",
     signUpUrl: "https://platform.keuringsnetwerk.be/registreren",
-    domain: "duodecim.be",
+    domain: "https://duodecim.be",
   }
 );
 
