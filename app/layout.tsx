@@ -1,5 +1,3 @@
-"use client";
-
 import {
   ClerkProvider,
   SignInButton,
@@ -19,7 +17,7 @@ export default function RootLayout({
       signInUrl={"https://platform.keuringsnetwerk.be/inloggen"}
       signUpUrl={"https://platform.keuringsnetwerk.be/registreren"}
       isSatellite={true}
-      domain={(url) => url.host}
+      domain={"duodecim.be"}
     >
       <html lang="en">
         <body>
