@@ -13,7 +13,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider
+      signInUrl={"https://platform.keuringsnetwerk.be/inloggen"}
+      signUpUrl={"https://platform.keuringsnetwerk.be/registreren"}
+      isSatellite={true}
+      domain={(url) => url.host}
+    >
       <html lang="en">
         <body>
           <header>
